@@ -1,0 +1,20 @@
+#include <iostream>
+#include <math.h>
+#define PI 3.1459
+
+using namespace std;
+
+int main(){
+	float r;
+	 
+	cout<<"Moi Ban Nhap Vao Ban Kinh r = ";
+	cin>>r;
+	
+	float chuvi, dientich;
+
+	dientich = PI*r*r;
+
+	cout<<"=> Dien tich hinh tron = "<<dientich<<endl;
+	 
+	return 0;
+}

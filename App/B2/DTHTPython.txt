@@ -1,0 +1,7 @@
+def s(r):
+    s = r*r*3.14
+    print(“Dien tich hinh tron tam I ban kinh “,r,”: “,s)
+
+r = int(input(“Nhap ban kinh R: “))
+
+s(r)
